@@ -35,7 +35,7 @@
       }
     },
     "author": "Jo",
-    "subcategories": [["An@log"], ["Labs", "#DC", "IoT"],["I-T"],["_ADC","Io_"]],
+    "subcategories": [["An@log"], ["Labs", "#DC", "IoT"],["I-T"],["_ADC","Io_"],["M%$"]],
     "peripherals": ["UART", "ADCC", "ADC"],
     "keywords": ["Analog", "IoT"],
     "additionalData": {
