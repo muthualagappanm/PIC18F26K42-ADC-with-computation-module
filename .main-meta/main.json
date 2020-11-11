@@ -4,7 +4,7 @@
   "content": {
     "metaDataVersion": "1.0.0",
     "name": "com.microchip.mcu8.mplabx.project.ADC_computation_module",
-    "version": "1.2.0",
+    "version": "1.2.2",
     "displayName": "PIC18F26K42 ADC with Computation Module",
     "projectName": "PIC18F26K42-ADC-with-computation-module",
     "shortDescription": "Code example showing a 12-bit ADC that integrates computational functions into module hardware",
@@ -35,7 +35,7 @@
       }
     },
     "author": "Jo",
-    "subcategories": [["An@log"], ["Labs", "#DC", "IoT"],["I-T"],["_ADC","Io_"],["M%$"]],
+    "subcategories": [["test%5E"],["test^"],["An@%$log"],["L@$!-abs"],["_A-D&C","Io$"],["M%$"]],
     "peripherals": ["UART", "ADCC", "ADC"],
     "keywords": ["Analog", "IoT"],
     "additionalData": {
