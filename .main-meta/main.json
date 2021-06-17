@@ -4,7 +4,7 @@
   "content": {
     "metaDataVersion": "1.2.0",
     "name": "com.microchip.mcu8.mplabx.project.ADC_computation_module_Test",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "displayName": "PIC18F26K42 ADC with Computation Module Test",
     "projectName": "PIC18F26K42-ADC-with-computation-module TEst",
     "shortDescription": "Code example showing a 12-bit ADC that integrates computational functions into module hardware",
@@ -63,7 +63,6 @@
           "openWith": [
             {
               "type": "url",
-              "name": "Microchip repo",
               "data": {
                 "url": "http://ww1.microchip.com/downloads/en/project/adc_dmac_sleepwalking_sam_c21n_xpro.pdf"
               },
@@ -71,25 +70,17 @@
             },
             {
               "type": "github",
-              "name": "Private Github",
-              "data": {
-                "url": "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_l10_l11/tree/v3.0.1"
-              },
-              "tooltip": "microchip public repository"
+              "show": false
             },
             {
               "type": "xpress",
               "name": "Custom xpress",
-              "data": {
-                "url": "https://www.test-mplab-xpresside.microchip.com"
-              },
               "tooltip": "custom xpress project"
             }
           ],
           "download": [
             {
               "type": "url",
-              "name": "Microchip Help",
               "data": {
                 "url": "http://ww1.microchip.com/downloads/en/project/adc_dmac_sleepwalking_sam_c21n_xpro.zip"
               },
@@ -97,11 +88,7 @@
             },
             {
               "type": "github",
-              "name": "private github",
-              "data": {
-                "url": "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_l10_l11/archive/refs/tags/v3.0.1.zip"
-              },
-              "tooltip": "github zip download"
+              "show": false
             }
           ]
         }
