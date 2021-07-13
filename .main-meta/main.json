@@ -42,7 +42,8 @@
     "subcategories": [
       ["lab.s"],
       ["la,bs"],
-      ["lab.s","la,bs"],
+      ["la+bs"],
+      ["lab.s","la,bs","la+bs"],
       ["test%5E"],
       ["test^"],
       ["An@%$log"],
