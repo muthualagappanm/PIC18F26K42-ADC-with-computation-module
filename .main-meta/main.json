@@ -18,6 +18,15 @@
             "name": "PIC18F47Q10_DFP",
             "semverRange": "^1.3.222"
         },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "versionRange": "*"
+            }
+        },
         "configurator": {
             "name": "Atmel START",
             "semverRange": ">=3.75"
