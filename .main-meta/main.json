@@ -6,7 +6,6 @@
         "name": "com.microchip.mcu8.mplabx.project.hello_world",
         "version": "10.0.0",
         "projectName": "test-PIC18F47Q10-hello-world",
-        "shortDescription": "Test Project",
         "ide": {
             "name": "Atmel Studio",
             "semverRange": ">=5.30.0"
@@ -22,16 +21,6 @@
         "configurator": {
             "name": "Atmel START",
             "semverRange": ">=3.75"
-        },
-        "device": {
-            "metaDataVersion": "1.0.0",
-            "category": "com.microchip.portal.contentRef",
-            "content": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.device",
-                "name": "PIC18F47Q10",
-                "versionRange": "*"
-            }
         },
         "author": "Anne Other",
         "additionalData": {
