@@ -6,6 +6,7 @@
         "name": "com.microchip.mcu8.mplabx.project.hello_world",
         "version": "1.0.0-alpha.1",
         "projectName": "test-PIC18F47Q10-hello-world",
+        "shortDescription":"Bootloader16 examples using different verication methods including ECDSA",
         "ide": {
             "name": "Atmel Studio",
             "semverRange": ">=5.30.0"
@@ -32,6 +33,27 @@
             "name": "Atmel START",
             "semverRange": ">=3.75"
         },
+              "keywords":[
+         "Bootloader",
+         "Firmware Upgrade",
+         "Secure Firmware Upgrade",
+         "MCC",
+         "Security",
+         "CodeGuard Security",
+         "Code Protection",
+         "ECC608",
+         "ATECC608",
+         "Getting Started",
+         "HSM",
+         "Secure Bootloader",
+         "SHA",
+         "SHA-256",
+         "XC16",
+         "Certificate",
+         "Private Key",
+         "Public Key",
+         "UBHA"
+         ]
         "author": "Anne Other",
         "additionalData": {
             "longDescription": {
