@@ -69,7 +69,7 @@ For Basic, Average, and Burst-Average modes, a user-defined setpoint is compared
 
 For Low-Pass Filter mode, a function generator is connected to the RA1 input pin. The function generator is configured so that a 50 Hz sinewave, with a peak-to-peak voltage of 2V, offset by 1500 mV (since the ADC cannot read values below the negative reference), is fed into the analog input. After each sample, the ADFLTR result is transmitted to the Atmel Studio IDE over the UART. Atmel Studio contains the Data Visualizer plug-in tool that has the ability to decode and display the UART data in the form of a graph, oscilloscope, or a terminal window. For this example, the oscilloscope is used to display the decoded waveform data.
 The Data Visualizer should be configured such that the serial port’s baud rate, parity settings, and Stop bit information matches the UART settings. Additionally, the Data Visualizer requires a configuration file that is used to decode the incoming data stream. This text file is included in the example code project file, and is named “Data Stream Config File”.
-Once the Data Visualizer is configured and the Low-Pass Filter mode is running on the HPC board, the filtered waveform will appear on the Data Visualizer’s oscilloscope. When the sinewave’s frequency is increased and reaches approximately 270 Hz (-3dB roll-off frequency), the waveform will have reduced its peak-to-peak voltage range to approximately 70% of the original waveform’s peak-to-peak range. As the frequency continues to increase, the waveform will continue to shrink until it approaches the Nyquist limit.
+>Once the Data Visualizer is configured and the Low-Pass Filter mode is running on the HPC board, the filtered waveform will appear on the Data Visualizer’s oscilloscope. When the sinewave’s frequency is increased and reaches approximately 270 Hz (-3dB roll-off frequency), the waveform will have reduced its peak-to-peak voltage range to approximately 70% of the original waveform’s peak-to-peak range. As the frequency continues to increase, the waveform will continue to shrink until it approaches the Nyquist limit.
 
 ### Data Visualizer Oscilloscope Displaying the Filtered 50 Hz Sinewave:
 
@@ -101,3 +101,18 @@ The ADCC with Computation module is used to convert an analog signal into a bina
       </html>
       <span>Im red</span>
     </div>
+
+  <center>
+
+    | Board | Switch name | Offering Type |
+    | -----: | :-----------: | :------------- |
+    | [PIC32MZ Embedded Graphics with Stacked DRAM (DA) Starter Kit (Crypto)](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320010-C) | SW1 | MCU |
+    | hello | World | MCU |   
+
+  </center>
+
+
+    <!-- A comment line to see how this text is getting handled>
+
+
+    :check_mark_button: 
