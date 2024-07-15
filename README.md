@@ -102,17 +102,32 @@ The ADCC with Computation module is used to convert an analog signal into a bina
       <span>Im red</span>
     </div>
 
-  <center>
+<center>
 
-    | Board | Switch name | Offering Type |
-    | -----: | :-----------: | :------------- |
-    | [PIC32MZ Embedded Graphics with Stacked DRAM (DA) Starter Kit (Crypto)](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320010-C) | SW1 | MCU |
-    | hello | World | MCU |   
+| Board | Switch name |  OFFERING TYPE | 
+| -----: | :-----------: |  :--- |
+[PIC32MZ Embedded Graphics with Stacked DRAM (DA) Starter Kit (Crypto)](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320010-C) | SW1 | MCU |
+| hello | World |  MCU |
 
-  </center>
+</center>
 
+| Board | Switch name |  OFFERING TYPE | 
+| -----: | :-----------: |  :--- |
+[PIC32MZ Embedded Graphics with Stacked DRAM (DA) Starter Kit (Crypto)](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320010-C) | SW1 | MCU |
+| hello | World |  MCU |
 
-    <!-- A comment line to see how this text is getting handled>
+<div style="display: flex; justify-content: right;">
 
+| Board | Switch name |  OFFERING TYPE | 
+| -----: | :-----------: |  :--- |
+[PIC32MZ Embedded Graphics with Stacked DRAM (DA) Starter Kit (Crypto)](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320010-C) | SW1 | MCU |
+| hello | World |  MCU |
+</div>
 
-    :check_mark_button: 
+[//]: <> (This is also a comment.)
+
+[//]: # (This may be the most platform independent comment)
+
+ <!-- A comment line to see how this text is getting handled>
+ </!-->
+ ✅
