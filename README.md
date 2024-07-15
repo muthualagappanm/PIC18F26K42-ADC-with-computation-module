@@ -131,3 +131,9 @@ The ADCC with Computation module is used to convert an analog signal into a bina
  <!-- A comment line to see how this text is getting handled>
  </!-->
  ✅
+
+ []: # (This is a comment)
+[]: # "And this is a comment"
+[]: # 'Also this is a comment'
+[//]: # (Yet another comment)
+[comment]: # (Still another comment)
