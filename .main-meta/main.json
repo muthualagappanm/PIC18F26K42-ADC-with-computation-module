@@ -1,109 +1,71 @@
 {
-  "metaDataVersion": "1.0.0",
-  "category": "com.microchip.ide.project",
-  "content": {
-    "metaDataVersion": "1.2.1",
-    "name": "com.microchip.mcu8.mplabx.project.ADC_computation_module_Test",
-    "version": "3.0.5",
-    "displayName": "PIC18F26K42 ADC with Computation Module Test",
-    "projectName": "PIC18F26K42-ADC-with-computation-module TEst",
-    "shortDescription": "Code example showing a 12-bit ADC that integrates computational functions into module hardware",
-    "ide": {
-      "name": "MPLABX",
-      "semverRange": ">=5.35.0"
-    },
-    "compiler": {
-      "name": "XC8",
-      "semverRange": "^5.35"
-    },
-    "dfp": {
-      "name": "PIC18F26K42_DFP",
-      "semverRange": "^1.3.222"
-    },
-    "configurator": {
-      "name": "MCC",
-      "semverRange": ">=3.85"
-    },
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
     "content": {
-      "name": "Harmony",
-      "semverRange": ">=3.85"
-    },
-    "device": {
-      "metaDataVersion": "1.0.0",
-      "category": "com.microchip.portal.contentRef",
-      "content": {
-        "metaDataVersion": "1.0.0",
-        "category": "com.microchip.device",
-        "name": "PIC18F26K42",
-        "versionRange": "*"
-      }
-    },
-    "author": "Jo",
-    "subcategories": [
-      ["lab.s"],
-      ["la,bs"],
-      ["la+bs"],
-      ["lab.s","la,bs","la+bs"],
-      ["test%5E"],
-      ["test^"],
-      ["An@%$log"],
-      ["L@$!-abs"],
-      ["_A-D&C", "Io$"],
-      ["M%$"]
-    ],
-    "peripherals": ["UART", "ADCC", "ADC"],
-    "keywords": ["Analog", "IoT"],
-    "additionalData": {
-      "longDescription": {
-        "metaDataVersion": "1.0.0",
-        "category": "com.microchip.portal.fileRef",
-        "content": {
-          "metaDataVersion": "1.0.0",
-          "fileName": "./README.md",
-          "mimeType": "text/markdown"
-        }
-      },
-      "gettingMechanisms": {
-        "metaDataVersion": "1.0.0",
-        "category": "com.microchip.portal.gettingMechanismsRef",
-        "content": {
-          "metaDataVersion": "1.0.0",
-          "openWith": [
-            {
-              "type": "url",
-              "data": {
-                "url": "http://ww1.microchip.com/downloads/en/project/adc_dmac_sleepwalking_sam_c21n_xpro.pdf"
-              },
-              "tooltip": "microchip public repository"
-            },
-            {
-              "type": "url",
-              "data": {
-                "url": "http://ww1.microchip.com/downloads/en/project/adc_dmac_sleepwalking_sam_c21n_xpro.pdf"
-              },
-              "tooltip": "microchip public repository 2"
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu8.mplabx.project.hello_world",
+        "version": "1.0.0-beta.1",
+          "displayName":"Test project for pre release version",
+        "projectName": "test-PIC18F47Q10-hello-world",
+        "shortDescription":"Bootloader16 examples using different verication methods including ECDSA",
+        "ide": {
+            "name": "Atmel Studio",
+            "semverRange": ">=5.30.0"
+        },
+        "compiler": {
+            "name": "XC8",
+            "semverRange": "^5.30"
+        },
+        "dfp": {
+            "name": "PIC18F47Q10_DFP",
+            "semverRange": "^1.3.222"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC18F47Q10",
+                "versionRange": "*"
             }
-          ],
-          "download": [
-            {
-              "type": "url",
-              "name": "microchip repo",
-              "data": {
-                "url": "http://ww1.microchip.com/downloads/en/project/adc_dmac_sleepwalking_sam_c21n_xpro.zip"
-              },
-              "tooltip": "microchip help document"
-            },
-            {
-              "type": "url",
-              "name": "External public repo",
-              "data": {
-                "url": "http://ww1.microchip.com/downloads/en/project/adc_dmac_sleepwalking_sam_c21n_xpro.zip"
-              },
-              "tooltip": "microchip help document 2"
+        },
+        "configurator": {
+            "name": "Atmel START",
+            "semverRange": ">=3.75"
+        },
+              "keywords":[
+         "Bootloader",
+         "Firmware Upgrade",
+         "Secure Firmware Upgrade",
+         "MCC",
+         "Security",
+         "CodeGuard Security",
+         "Code Protection",
+         "ECC608",
+         "ATECC608",
+         "Getting Started",
+         "HSM",
+         "Secure Bootloader",
+         "SHA",
+         "SHA-256",
+         "XC16",
+         "Certificate",
+         "Private Key",
+         "Public Key",
+         "UBHA"
+         ],
+        "author": "Anne Other",
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
             }
-          ]
         }
-      }
     }
-  }
 }
