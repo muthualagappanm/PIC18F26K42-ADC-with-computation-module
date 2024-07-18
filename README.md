@@ -102,6 +102,19 @@ The ADCC with Computation module is used to convert an analog signal into a bina
       <span>Im red</span>
     </div>
 
+# proper picture tag
+<picture>
+    <source media="(prefers-color-scheme: light)" srcset="images/flow-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="images/flow-dark.png">
+    <img alt="Shows a flowchart of the software's architecture." src="images/flow-light.png"  width="1000">
+</picture>
+
+# Improper picture tag
+<picture>
+    <source media="(prefers-color-scheme: light)" srcset="images/flow-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="images/flow-dark.png">
+</picture>
+
 <center>
 
 | Board | Switch name |  OFFERING TYPE | 
