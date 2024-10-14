@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.hello_world",
-        "version": "1.0.0-beta.13",
+        "version": "1.0.0-beta.15",
           "displayName":"Test project for pre release version",
         "projectName": "test-PIC18F47Q10-hello-world",
         "shortDescription":"Bootloader16 examples using different verication methods including ECDSA",

@@ -12,6 +12,33 @@ The ADC with Computation module is a 12-bit ADC that integrates computational fu
 Basic mode is considered a ‘legacy’ mode since it does not use the computation functions, similar to a typical ADC found in many PIC16 and PIC18 devices. Average mode computes the average of a user selectable number of samples. Burst-Average mode also computes the average of a user selectable number of samples, but acquires the total number of samples without resetting the GO bit between each sample. Low-Pass Filter mode removes unwanted frequencies from a signal.
 
 [Link to a relative file ](pic18f26k42-adcc-demo.X/device_config.mc3)
+
+[Link to a relative file path from root](/pic18f26k42-adcc-demo.X/nbproject/project.xml)
+
+[Link to a relative file path from root Incorrect](/PIC18F26K42-ADC-with-computation-module/pic18f26k42-adcc-demo.X/nbproject/project.xml)
+
+[Link to a relative file with ./ ](./pic18f26k42-adcc-demo.X/device_config.mc3)
+
+## Objective:
+
+![Absolute External URL](https://static.transim.com/img/52018/5a411f3921b1452eaf5a9c97f9928980-7l7d1.jpg)
+
+### Relative file path to root:
+
+![Relative URL to root](/images/mcc/bits.png)
+
+### Relative file path:
+
+![Relative file path](images/mcc/bits.png)
+
+### Relative file path with ./:
+
+![Relative file path](images/mcc/bits.png)
+
+### Relative Incorrect:
+
+![Relative Incorrect](/PIC18F26K42-ADC-with-computation-module/images/mcc/bits.png)
+
 <div>
   <style>
     div {
