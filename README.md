@@ -33,7 +33,7 @@ Basic mode is considered a ‘legacy’ mode since it does not use the computati
 
 ### Relative file path with ./:
 
-![Relative file path](images/mcc/bits.png)
+![Relative file path](./images/mcc/bits.png)
 
 ### Relative Incorrect:
 

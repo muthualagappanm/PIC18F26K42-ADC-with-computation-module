@@ -18,6 +18,33 @@ Software used:
             *MCC plug-in tool v3.45.1
             *PC terminal program (Tera Term)
 
+[Link to a relative file ](device_config.mc3)
+
+[Link to a relative file path from root](/pic18f26k42-adcc-demo.X/nbproject/project.xml)
+
+[Link to a relative file path from root Incorrect](/PIC18F26K42-ADC-with-computation-module/pic18f26k42-adcc-demo.X/nbproject/project.xml)
+
+[Link to a relative file with ./ ](./device_config.mc3)
+
+## Objective:
+
+![Absolute External URL](https://static.transim.com/img/52018/5a411f3921b1452eaf5a9c97f9928980-7l7d1.jpg)
+
+### Relative file path to root:
+
+![Relative URL to root](/images/mcc/bits.png)
+
+### Relative file path:
+
+![Relative file path](/adapter.png)
+
+### Relative file path with ./:
+
+![Relative file path](../images/mcc/bits.png)
+
+### Relative Incorrect:
+
+![Relative Incorrect](/PIC18F26K42-ADC-with-computation-module/images/mcc/bits.png)
 
 Operation:
 
