@@ -1,8 +1,8 @@
 {
     "metaDataVersion": "1.0.0",
-    "category": "com.microchip.ide.project",
+    "category": "com.microchip.portal.softwareTools",
     "content": {
-        "metaDataVersion": "1.3.0",
+        "metaDataVersion": "1.0.0",
         "name": "com.microchip.mcu8.mplabx.project.hello_world",
         "version": "1.0.0-test-long-desc-v1",
           "displayName":"Test project for pre release version",
