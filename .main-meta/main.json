@@ -6,7 +6,6 @@
         "name": "com.microchip.mcu8.mplabx.project.hello_world",
         "version": "1.0.0-test-long-desc-v1",
           "displayName":"Test project for pre release version",
-        "projectName": "test-PIC18F47Q10-hello-world",
         "shortDescription":"Bootloader16 examples using different verication methods including ECDSA",
               "keywords":[
          "Bootloader",
