@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.hello_world",
-        "version": "1.0.0-beta.17",
+        "version": "1.0.0-test-long-desc-v1",
           "displayName":"Test project for pre release version",
         "projectName": "test-PIC18F47Q10-hello-world",
         "shortDescription":"Bootloader16 examples using different verication methods including ECDSA",
@@ -59,10 +59,13 @@
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
-                "category": "com.microchip.portal.fileRef",
+                "category": "com.microchip.portal.longDescriptionRef",
                 "content": {
                     "metaDataVersion": "1.0.0",
-                    "fileName": "./pic18f26k42-adcc-demo.X/ReadMe.txt",
+                    "rawBaseReadmeUrl": "https://raw.githubusercontent.com/muthualagappanm/PIC18F26K42-ADC-with-computation-module/1.0.0-beta.16/README.md",
+                    "webBaseReadmeUrl": "https://github.com/muthualagappanm/PIC18F26K42-ADC-with-computation-module/tree/1.0.0-beta.16/README.md",
+                    "rawBaseUrl": "https://raw.githubusercontent.com/muthualagappanm/PIC18F26K42-ADC-with-computation-module/1.0.0-beta.16",
+                    "webBaseUrl": "https://github.com/muthualagappanm/PIC18F26K42-ADC-with-computation-module/tree/1.0.0-beta.18",
                     "mimeType": "text/markdown"
                 }
             }
