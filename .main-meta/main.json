@@ -3,44 +3,102 @@
     "category": "com.microchip.portal.softwareTools",
     "content": {
         "metaDataVersion": "1.0.0",
-        "name": "com.microchip.mcu8.mplabx.project.hello_world",
-        "version": "1.0.0-test-long-desc-v1-with-custom-path",
-          "displayName":"Test project for pre release version",
-        "shortDescription":"Bootloader16 examples using different verication methods including ECDSA",
-              "keywords":[
-         "Bootloader",
-         "Firmware Upgrade",
-         "Secure Firmware Upgrade",
-         "MCC",
-         "Security",
-         "CodeGuard Security",
-         "Code Protection",
-         "ECC608",
-         "ATECC608",
-         "Getting Started",
-         "HSM",
-         "Secure Bootloader",
-         "SHA",
-         "SHA-256",
-         "XC16",
-         "Certificate",
-         "Private Key",
-         "Public Key",
-         "UBHA"
-         ],
+        "name": "com.microchip.software-tools.mcc",
+        "version": "5.3.7-uploaded-from-github",
+        "displayName": "MPLAB® Code Configurator (MCC)",
+        "shortDescription": "MPLAB® Code Configurator (MCC) is a free graphical programming environment that generates seamless, easy-to-understand C code to insert into your project.",
+        "keywords": [
+            "MCC",
+            "Configurator",
+            "Classic",
+            "Melody",
+            "Harmony",
+            "Content Manager"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.portal.longDescriptionRef",
                 "content": {
                     "metaDataVersion": "1.0.0",
-                    "rawBaseReadmeUrl": "https://raw.githubusercontent.com/muthualagappanm/PIC18F26K42-ADC-with-computation-module/1.0.0-beta.22/pic18f26k42-adcc-demo.X/ReadMe.txt",
-                    "webBaseReadmeUrl": "https://github.com/muthualagappanm/PIC18F26K42-ADC-with-computation-module/tree/1.0.0-beta.22/pic18f26k42-adcc-demo.X/ReadMe.txt",
-                    "rawBaseUrl": "https://raw.githubusercontent.com/muthualagappanm/PIC18F26K42-ADC-with-computation-module/1.0.0-beta.16",
-                    "webBaseUrl": "https://github.com/muthualagappanm/PIC18F26K42-ADC-with-computation-module/tree/1.0.0-beta.18",
+                    "rawBaseReadmeUrl": "https://raw.githubusercontent.com/muthualagappanm/PIC18F26K42-ADC-with-computation-module/1.0.0-beta.17/pic18f26k42-adcc-demo.X/ReadMe.txt",
+                    "webBaseReadmeUrl": "https://github.com/muthualagappanm/PIC18F26K42-ADC-with-computation-module/tree/1.0.0-beta.17/pic18f26k42-adcc-demo.X/ReadMe.txt",
+                    "rawBaseUrl": "https://raw.githubusercontent.com/muthualagappanm/PIC18F26K42-ADC-with-computation-module/1.0.0-beta.17",
+                    "webBaseUrl": "https://github.com/muthualagappanm/PIC18F26K42-ADC-with-computation-module/tree/1.0.0-beta.17",
                     "mimeType": "text/markdown"
                 }
-            }
+            },
+            "gettingMechanisms": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.toolsGettingMechanismsRef",
+                "content": {
+                  "metaDataVersion": "1.0.0",
+                  "openWith": [
+                    {
+                      "metaDataVersion": "1.0.0",
+                      "category": "com.microchip.portal.urlGettingMechanismRef",
+                      "content": {
+                        "metaDataVersion": "1.0.0",
+                        "type": "url",
+                        "data": {
+                          "url": "https://onlinedocs.microchip.com/pr/GUID-1F7007B8-9A46-4D03-AEED-650357BA760D-en-US-6/index.html?GUID-4D29BF19-E2DB-4254-946F-9E42928767F6",
+                          "name": "Microchip.com"
+                        }
+                      }
+                    }
+                  ],
+                  "download": [
+                    {
+                      "metaDataVersion": "1.0.0",
+                      "category": "com.microchip.portal.urlGettingMechanismRef",
+                      "content": {
+                        "metaDataVersion": "1.0.0",
+                        "type": "url",
+                        "data": {
+                            "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SupportingCollateral/com-microchip-mcc-v5.3.7.zip",
+                            "name": "Microchip.com - MCC Plugin v5.3.7"
+                            }
+                        }
+                    },
+                    {
+                      "metaDataVersion": "1.0.0",
+                      "category": "com.microchip.portal.urlGettingMechanismRef",
+                      "content": {
+                        "metaDataVersion": "1.0.0",
+                        "type": "url",
+                        "data": {
+                            "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SupportingCollateral/mcc-installer-5.3.7-windows.exe",
+                            "name": "Microchip.com - MCC Standalone (Windows® x64) v5.3.7"
+                            }
+                        }
+                    },
+                    {
+                      "metaDataVersion": "1.0.0",
+                      "category": "com.microchip.portal.urlGettingMechanismRef",
+                      "content": {
+                        "metaDataVersion": "1.0.0",
+                        "type": "url",
+                        "data": {
+                            "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SupportingCollateral/mcc-installer-5.3.7-mac.dmg",
+                            "name": "Microchip.com - MCC Standalone (OSX®) v5.3.7"
+                            }
+                        }
+                    },
+                    {
+                      "metaDataVersion": "1.0.0",
+                      "category": "com.microchip.portal.urlGettingMechanismRef",
+                      "content": {
+                        "metaDataVersion": "1.0.0",
+                        "type": "url",
+                        "data": {
+                            "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SupportingCollateral/mcc-installer-5.3.7-linux.run",
+                            "name": "Microchip.com - MCC Standalone (Linux®) v5.3.7"
+                            }
+                        }
+                    }
+                  ]
+                }
+              }
         }
     }
-}
+  }
