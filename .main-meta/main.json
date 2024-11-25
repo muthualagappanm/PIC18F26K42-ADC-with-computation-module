@@ -1,20 +1,61 @@
 {
     "metaDataVersion": "1.0.0",
-    "category": "com.microchip.portal.softwareTools",
+    "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.0.0",
-        "name": "com.microchip.software-tools.mcc",
-        "version": "5.3.7-uploaded-from-github",
-        "displayName": "MPLAB® Code Configurator (MCC)",
-        "shortDescription": "MPLAB® Code Configurator (MCC) is a free graphical programming environment that generates seamless, easy-to-understand C code to insert into your project.",
-        "keywords": [
-            "MCC",
-            "Configurator",
-            "Classic",
-            "Melody",
-            "Harmony",
-            "Content Manager"
-        ],
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu8.mplabx.project.test_multiple_dropdown_openwith_download",
+        "version": "1.0.2",
+        "displayName":"Test project with multiple open with and download",
+        "projectName": "test-PIC18F47Q10-hello-world",
+        "shortDescription":"Bootloader16 examples using different verication methods including ECDSA",
+        "ide": {
+            "name": "Atmel Studio",
+            "semverRange": ">=5.30.0"
+        },
+        "compiler": {
+            "name": "XC8",
+            "semverRange": "^5.30"
+        },
+        "dfp": {
+            "name": "PIC18F47Q10_DFP",
+            "semverRange": "^1.3.222"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC18F47Q10",
+                "versionRange": "*"
+            }
+        },
+        "configurator": {
+            "name": "Atmel START",
+            "semverRange": ">=3.75"
+        },
+              "keywords":[
+         "Bootloader",
+         "Firmware Upgrade",
+         "Secure Firmware Upgrade",
+         "MCC",
+         "Security",
+         "CodeGuard Security",
+         "Code Protection",
+         "ECC608",
+         "ATECC608",
+         "Getting Started",
+         "HSM",
+         "Secure Bootloader",
+         "SHA",
+         "SHA-256",
+         "XC16",
+         "Certificate",
+         "Private Key",
+         "Public Key",
+         "UBHA"
+         ],
+        "author": "Anne Other",
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
@@ -69,30 +110,6 @@
                         "data": {
                             "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SupportingCollateral/mcc-installer-5.3.7-windows.exe",
                             "name": "Microchip.com - MCC Standalone (Windows® x64) v5.3.7"
-                            }
-                        }
-                    },
-                    {
-                      "metaDataVersion": "1.0.0",
-                      "category": "com.microchip.portal.urlGettingMechanismRef",
-                      "content": {
-                        "metaDataVersion": "1.0.0",
-                        "type": "url",
-                        "data": {
-                            "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SupportingCollateral/mcc-installer-5.3.7-mac.dmg",
-                            "name": "Microchip.com - MCC Standalone (OSX®) v5.3.7"
-                            }
-                        }
-                    },
-                    {
-                      "metaDataVersion": "1.0.0",
-                      "category": "com.microchip.portal.urlGettingMechanismRef",
-                      "content": {
-                        "metaDataVersion": "1.0.0",
-                        "type": "url",
-                        "data": {
-                            "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SupportingCollateral/mcc-installer-5.3.7-linux.run",
-                            "name": "Microchip.com - MCC Standalone (Linux®) v5.3.7"
                             }
                         }
                     }
