@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.test_multiple_dropdown_openwith_download",
-        "version": "1.0.2",
+        "version": "1.0.4",
         "displayName":"Test project with multiple open with and download",
         "projectName": "test-PIC18F47Q10-hello-world",
         "shortDescription":"Bootloader16 examples using different verication methods including ECDSA",
@@ -57,53 +57,72 @@
          ],
         "author": "Anne Other",
         "additionalData": {
-            "gettingMechanisms": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.portal.toolsGettingMechanismsRef",
-                "content": {
+          "gettingMechanisms": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.ideProjectGettingMechanismsRef",
+            "content": {
+              "metaDataVersion": "1.0.0",
+              "openWith": [
+                {
                   "metaDataVersion": "1.0.0",
-                  "openWith": [
-                    {
-                      "metaDataVersion": "1.0.0",
-                      "category": "com.microchip.portal.urlGettingMechanismRef",
-                      "content": {
-                        "metaDataVersion": "1.0.0",
-                        "type": "url",
-                        "data": {
-                          "url": "https://onlinedocs.microchip.com/pr/GUID-1F7007B8-9A46-4D03-AEED-650357BA760D-en-US-6/index.html?GUID-4D29BF19-E2DB-4254-946F-9E42928767F6",
-                          "name": "Microchip.com"
-                        }
-                      }
+                  "category": "com.microchip.portal.urlGettingMechanismRef",
+                  "content": {
+                    "metaDataVersion": "1.0.0",
+                    "type": "url",
+                    "data": {
+                      "url": "http://ww1.microchip.com/downloads/en/project/adc_dmac_sleepwalking_sam_c21n_xpro.pdf",
+                      "name": "Microchip repo",
+                      "tooltip": "microchip public repository"
                     }
-                  ],
-                  "download": [
-                    {
-                      "metaDataVersion": "1.0.0",
-                      "category": "com.microchip.portal.urlGettingMechanismRef",
-                      "content": {
-                        "metaDataVersion": "1.0.0",
-                        "type": "url",
-                        "data": {
-                            "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SupportingCollateral/com-microchip-mcc-v5.3.7.zip",
-                            "name": "Microchip.com - MCC Plugin v5.3.7"
-                            }
-                        }
-                    },
-                    {
-                      "metaDataVersion": "1.0.0",
-                      "category": "com.microchip.portal.urlGettingMechanismRef",
-                      "content": {
-                        "metaDataVersion": "1.0.0",
-                        "type": "url",
-                        "data": {
-                            "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SupportingCollateral/mcc-installer-5.3.7-windows.exe",
-                            "name": "Microchip.com - MCC Standalone (Windows® x64) v5.3.7"
-                            }
-                        }
+                  }
+                },
+                {
+                  "metaDataVersion": "1.0.0",
+                  "category": "com.microchip.portal.githubGettingMechanismRef",
+                  "content": {
+                    "metaDataVersion": "1.0.0",
+                    "type": "github",
+                    "data": {
+                      "url": "<--Customised url can be specified here to override the discover computed github opewith url. If discover computed github opewith url is okay, then github mechanism doesnt need to be specified-->"
                     }
-                  ]
+                  }
+                },
+                {
+                  "metaDataVersion": "1.0.0",
+                  "category": "com.microchip.portal.xpressGettingMechanismRef",
+                  "content": {
+                    "metaDataVersion": "1.0.0",
+                    "type": "xpress"
+                  }
                 }
-              }
+              ],
+              "download": [
+                {
+                  "metaDataVersion": "1.0.0",
+                  "category": "com.microchip.portal.urlGettingMechanismRef",
+                  "content": {
+                    "metaDataVersion": "1.0.0",
+                    "type": "url",
+                    "data": {
+                      "url": "http://ww1.microchip.com/downloads/en/project/adc_dmac_sleepwalking_sam_c21n_xpro.zip",
+                      "name": "Microchip Help"
+                    }
+                  }
+                },
+                {
+                  "metaDataVersion": "1.0.0",
+                  "category": "com.microchip.portal.githubGettingMechanismRef",
+                  "content": {
+                    "metaDataVersion": "1.0.0",
+                    "type": "github",
+                    "data": {
+                      "url": "<--Customised url can be specified here to override the discover computed github download url. If discover computed github download url is okay, then github mechanism doesnt need to be specified-->"
+                    }
+                  }
+                }
+              ]
+            }
+          }
         }
     }
   }
