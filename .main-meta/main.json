@@ -4,7 +4,7 @@
   "content": {
       "metaDataVersion": "1.0.0",
       "name": "com.microchip.software-tools.mcc",
-      "version": "5.3.7-test-readme-in-diff-path-uploaded-with-github",
+      "version": "5.3.7-test-aemDownload",
       "displayName": "MPLAB® Code Configurator (MCC)",
       "shortDescription": "MPLAB® Code Configurator (MCC) is a free graphical programming environment that generates seamless, easy-to-understand C code to insert into your project.",
       "keywords": [
@@ -55,8 +55,8 @@
                       "metaDataVersion": "1.0.0",
                       "type": "url",
                       "data": {
-                          "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SupportingCollateral/com-microchip-mcc-v5.3.7.zip",
-                          "name": "Microchip.com - MCC Plugin v5.3.7"
+                          "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/WSG/ProductDocuments/Certifications/WBZ451PE_Regulatory_Approval_Documentation_RevA.zip",
+                          "name": "Test download from aemDOc"
                           }
                       }
                   },
