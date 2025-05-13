@@ -2,7 +2,7 @@
 
 ## Objective:
 
-The ADC with Computation module is a 12-bit ADC that integrates computational functions into module hardware. In this code example, the user can select from four computation modes:
+The ADC with Computation module is a 12-bit ADC that integrates computational functions into module hardware. In this code example, the user can select from four computation modes: test
 
 -     Basic mode
 - Average mode
